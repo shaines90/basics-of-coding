@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  root 'site#index'
+  root 'home#index'
 
-  get 'privacy' => 'site#privacy'
-  get 'terms' => 'site#terms'
+  get 'profile' => 'profile#index'
 
+  get 'register' => 'register#index'
+
+  get 'login' => 'login#index'
 end
