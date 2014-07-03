@@ -9,7 +9,7 @@ feature 'convert the url' do
   scenario 'Get the converted URL' do
     visit '/'
     within('#login') do
-      fill_in 'username', :with => 'shaines90'
+      fill_in 'email', :with => 'sophia.haines@gmail.com'
       fill_in 'password', :with => '1234'
       click_on 'Submit'
     end

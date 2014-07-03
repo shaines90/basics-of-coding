@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   get 'profile' => 'profile#index'
   get 'register' => 'register#index'
+  get 'contribute' => 'contribute#index'
 
   # routes for URL
   post 'url' => 'url#create'
