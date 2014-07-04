@@ -9,5 +9,9 @@ Rails.application.routes.draw do
   post 'url' => 'url#create'
   get 'url' => 'url#index'
 
+  # routes for tags
+  post 'tags' => 'tags#create'
+  get 'tags' => 'tags#index'
+
 
 end

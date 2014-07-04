@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140703082134) do
+ActiveRecord::Schema.define(version: 20140704011342) do
+
+  create_table "tags", force: true do |t|
+    t.string   "name"
+    t.string   "color"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "urls", force: true do |t|
     t.string   "originial"
