@@ -1,1 +1,31 @@
-<h1>Register</h1>
+<h2>Register</h2>
+
+<form class="registration-form">
+    <div class="registration-form-column">
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" name="first_name" placeholder="your last name">
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" name="last_name" placeholder="your last name">
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email" placeholder="your_email@example.com">
+        <label for="favourite_topic">Favourite Topic</label>
+        <select id="favourite_topic" name="favourite_topic">
+            <option>Ruby on Rails</option>
+            <option>CoffeeScript</option>
+            <option>Meteor</option>
+            <option>NodeJS</option>
+            <option>Ember</option>
+            <option>Angular JS</option>
+            <option>Handlebars</option>
+            <option>JavaScript</option>
+            <option>Slim</option>
+            <option>Other</option>
+        </select>
+        <label for="bio">Biography</label>
+        <textarea id="bio" name="bio"></textarea>
+    </div>
+    <div class="registration-form-column">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="+852 9123 4567">
+    <div class="registration-form-submit-wrap"><input class="registration-form-submit" type="submit" value="Submit" /></div>
+</form>
