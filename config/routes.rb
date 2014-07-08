@@ -8,6 +8,15 @@ Rails.application.routes.draw do
   get 'contact' => 'contact#index'
   get 'browse' => 'browse#index'
 
+  # routes for posts
+  get 'posts' => 'post#index'
+  get 'posts' => 'post#new'
+  post 'posts' => 'post#create'
+  get 'posts' => 'post#show'
+  get 'posts' => 'post#edit'
+  post 'posts' => 'post#update'
+  delete 'posts' => 'post#destroy'
+
   # routes for URL
   post 'url' => 'url#create'
   get 'url' => 'url#index'

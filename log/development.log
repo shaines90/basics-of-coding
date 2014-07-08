@@ -39810,3 +39810,141 @@ Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-08 17:23:01 +0800
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-08 17:23:01 +0800
+
+
+Started GET "/browse" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+Processing by BrowseController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/devise-3.2.4/app/views/devise/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:31 +0800
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VUqQM7OjWPqcYAW09vTw3vv8VI1l7C0x4GmEX8CL5+Q=", "user"=>{"email"=>"sophia.haines@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'sophia.haines@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["current_sign_in_at", "2014-07-08 09:25:33.134290"], ["last_sign_in_at", "2014-07-08 09:15:26.945748"], ["sign_in_count", 12], ["updated_at", "2014-07-08 09:25:33.134982"]]
+  [1m[35m (4.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/browse
+Completed 302 Found in 95ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/browse" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+Processing by BrowseController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered browse/index.html within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800

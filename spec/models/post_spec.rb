@@ -1,19 +1,26 @@
 require 'rails_helper'
 
 RSpec.describe Post, :type => :model do
-    it "is a valid post name" do
-    post = Post.new
-    post.title = 'Why do we use github?'
-    post.save
 
-    expect(post).to be_valid
+  before :each do
+    @valid_post = Post.new
+    @valid_post.title = "Why do we use github?"
+    @valid_post.content = "There should be some content"
   end
 
-  it "has content" do
-    post = Post.new
-    post.content = 'there should be some text here'
-    post.save
-
-    expect(post).to be_valid
+  it "is valid with a title and content" do
+    @valid_post.save
+    expect(@valid_post).to be_valid
   end
+
+  it "is not valid without a title" do
+    @valid_post.title = ""
+    expect(@valid_post).to be_invalid
+  end
+
+  it "is invalid without content" do
+    @valid_post.content = ""
+    expect(@valid_post).to be_invalid
+  end
+
 end
