@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'register' => 'register#index'
   get 'contribute' => 'contribute#index'
   get 'contact' => 'contact#index'
+  get 'browse' => 'browse#index'
 
   # routes for URL
   post 'url' => 'url#create'

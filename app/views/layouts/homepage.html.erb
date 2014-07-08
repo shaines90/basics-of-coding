@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Whiteboard</title>
+  <%= stylesheet_link_tag    'homepage', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="cover-container">
+        <div class="masthead clearfix">
+          <div class="inner">
+          <h3 class="masthead-brand">Whiteboard</h3>
+            <ul class="nav masthead-nav">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/browse">Browse</a></li>
+            <li><a href="/contribute">Contribute</a></li>
+            <li><a href="/contact">Contact</a></li>
+              <% if user_signed_in? %>
+                <li><%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %></li>
+                <li><%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %></li>
+              <% else %>
+                <li><%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %></li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+        <div class="inner cover">
+          <h1 class="cover-heading">Welcome to Whiteboard</h1>
+          <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+          <p class="lead">
+          <a href="/users/sign_up" class="btn btn-lg btn-default">Sign Up Now</a>
+          </p>
+          <p>Already have an account? <a href="/users/sign_in" class="log_in_home">Login</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
