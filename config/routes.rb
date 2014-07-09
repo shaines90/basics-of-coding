@@ -3,28 +3,29 @@ Rails.application.routes.draw do
   root 'home#index'
 
   get 'profile' => 'profile#index'
-  get 'register' => 'register#index'
   get 'contribute' => 'contribute#index'
   get 'contact' => 'contact#index'
   get 'browse' => 'browse#index'
 
   # routes for posts
-  get 'posts' => 'post#index'
-  get 'posts' => 'post#new'
-  post 'posts' => 'post#create'
-  get 'posts' => 'post#show'
-  get 'posts' => 'post#edit'
-  post 'posts' => 'post#update'
-  delete 'posts' => 'post#destroy'
+  get 'posts' => 'posts#index'
+  get 'posts' => 'posts#new'
+  post 'posts' => 'posts#create'
+  get 'posts/:id' => 'posts#show'
+  get 'posts' => 'posts#edit'
+  post 'posts' => 'posts#update'
+  delete 'posts' => 'posts#destroy'
+
+  get 'posts/jquery' => 'posts#show'
 
   # routes for comments
-  get 'comments' => 'comment#index'
-  get 'comments' => 'comment#new'
-  post 'comments' => 'comment#create'
-  get 'comments' => 'comment#show'
-  get 'comments' => 'comment#edit'
-  post 'comments' => 'comment#update'
-  delete 'comments' => 'comment#destroy'
+  get 'comments' => 'comments#index'
+  get 'comments' => 'comments#new'
+  post 'comments' => 'comments#create'
+  get 'comments' => 'comments#show'
+  get 'comments' => 'comments#edit'
+  post 'comments' => 'comments#update'
+  delete 'comments' => 'comments#destroy'
 
   # routes for URL
   post 'url' => 'url#create'

@@ -1,0 +1,26 @@
+<div class="post_title">
+  <h2>  <%= @post.title %> </h2>
+</div>
+
+<div class="post_content">
+  <p>  <%= @post.content %> </p>
+</div>
+
+<form class="registration-form comment" method="post" action="/comments">
+  <div class="post_comments comment">
+    <label for="comment"> Comment </label>
+    <textarea id="comment" name="comment" placeholder="Insert your comment here..."></textarea>
+  </div>
+  <div class="registration-form-submit-wrap">
+    <input class="registration-form-submit comment" type="submit" value="Submit" />
+  </div>
+  <input type="hidden" name="post_id" value="<%= @post.id %>" />
+</form>
+
+<div class="comments">
+  <% @comments.each do |c| %>
+    <div class="individual_comment">
+      <%= c.content %>
+    </div>
+  <% end %>
+</div>

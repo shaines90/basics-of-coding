@@ -4,16 +4,6 @@ class TagController < ApplicationController
   def create
     tags = Tags.new
     tags.name = params[:title]
-
-    if tags.save
-      render :create
-    else
-      render :text, "Error"
-    end
-  end
-
-  def create
-    tags = Tags.new
     tags.color = params[:rgb]
 
     if tags.save
@@ -22,5 +12,4 @@ class TagController < ApplicationController
       render :text, "Error"
     end
   end
-
 end

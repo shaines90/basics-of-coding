@@ -6,12 +6,13 @@ class ContributeController < ApplicationController
 
   def create
     post = Post.new
-    post.title = params[:]
+    post.title = params[:title]
 
     if post.save
       render :create
     else
       render :text, "Error"
+    end
   end
 end
 
