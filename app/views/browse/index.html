@@ -8,3 +8,11 @@
   <button type="button" class="btn-tag btn-definitions">Basic Definitions</button>
   <button type="button" class="btn-tag btn-ror">Ruby on Rails</button>
 </p>
+
+<div class="posts">
+  <% @posts.each do |p| %>
+    <div class="individual_post">
+      <a href="/posts/<%= p.id %>"><%= p.title %></a>
+    </div>
+  <% end %>
+</div>
