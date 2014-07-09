@@ -17,6 +17,15 @@ Rails.application.routes.draw do
   post 'posts' => 'post#update'
   delete 'posts' => 'post#destroy'
 
+  # routes for comments
+  get 'comments' => 'comment#index'
+  get 'comments' => 'comment#new'
+  post 'comments' => 'comment#create'
+  get 'comments' => 'comment#show'
+  get 'comments' => 'comment#edit'
+  post 'comments' => 'comment#update'
+  delete 'comments' => 'comment#destroy'
+
   # routes for URL
   post 'url' => 'url#create'
   get 'url' => 'url#index'

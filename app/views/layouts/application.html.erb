@@ -21,10 +21,9 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="/browse">Browse</a></li>
-          <li><a href="/contribute">Contribute</a></li>
-          <li><a href="/profile">My Profile</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/browse"><span class="glyphicon glyphicon-eye-open"></span> Browse</a></li>
+          <li><a href="/contribute"><span class="glyphicon glyphicon-plus"></span> Contribute</a></li>
+          <li><a href="/contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <% if user_signed_in? %>
@@ -32,10 +31,10 @@
             <li><%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %></li>
           <% else %>
             <li><%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %></li>
-            <li><%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %></li>
+            <li><%= link_to "Login", new_user_session_path, :class => 'navbar-link' %></li>
           <% end %>
         <li id="search">
-          <a href="#" id="search-btn"><i class="fa fa-times margin-2" id="search-icon"></i> Search</a>
+          <a href="#" id="search-btn"><span class="glyphicon glyphicon-search"></span> Search</a>
             <div class="search-box hidden animated fadeInUp" id="search-box">
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search">

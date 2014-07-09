@@ -39948,3 +39948,3566 @@ Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-08
 
 
 Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-08 17:25:33 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-09 10:37:29 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html within layouts/homepage (1.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 170ms (Views: 168.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2014-07-09 10:37:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:29 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:30 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:37:32 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 25.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:37:32 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:32 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:33 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 10:37:35 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:36 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:37:50 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:42:27 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 16.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:01 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:02 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:02 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:02 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:02 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:54:02 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 10:55:17 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 10:55:29 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 10:55:36 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 20.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 10:56:56 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:57:07 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:57:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 10:57:08 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 10:57:27 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 10:58:20 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 10:59:23 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 10:59:35 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 10:59:50 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:00:19 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:00:19 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:19 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:00:20 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:00:57 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:01:17 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:01:22 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:02:25 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...ss => 'navbar-link' <span class="glyphicon glyphicon-cog"></...
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+...ass="glyphicon glyphicon-cog"></span> );@output_buffer.safe_...
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:30: unknown regexp option - l
+unmatched close parenthesis: /span> );@output_buffer.safe_append='</i
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:31: syntax error, unexpected '<'
+            <li>'.freeze;@output_buffer.ap...
+             ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+...hod: :delete, :class => 'navbar-link'  );@output_buffer.safe...
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:31: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...delete, :class => 'navbar-link'  );@output_buffer.safe_appen...
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:33: unknown regexp option - l
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+            <li>'.freeze;@output_buffer.ap...
+             ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting ')'
+...session_path, :class => 'navbar-link'  );@output_buffer.safe...
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:34: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...n_path, :class => 'navbar-link'  );@output_buffer.safe_appen...
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:37: unknown regexp options - pa
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:37: syntax error, unexpected '<'
+...icon glyphicon-search"></span></i> Search</a>
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:37: unknown regexp option - a
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+            <div class="search-box hidden ...
+             ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ox hidden animated fadeInUp" id="search-box">
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+              <div class="input-group">
+               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:40: syntax error, unexpected '<'
+                <input type="text" class="form...
+                 ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:40: syntax error, unexpected keyword_class, expecting ')'
+...       <input type="text" class="form-control" placeholder="...
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+...lass="form-control" placeholder="Search">
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:41: syntax error, unexpected '<'
+                <span class="input-group-btn">
+                 ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:42: syntax error, unexpected '<'
+                  <button class="btn btn-default...
+                   ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+...on class="btn btn-default" type="button">Go!</button>
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:43: unknown regexp options - pa
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:44: syntax error, unexpected '<'
+              </div>
+               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:45: unknown regexp options - dv
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:46: syntax error, unexpected '<'
+          </li>
+           ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:47: unknown regexp option - l
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:48: syntax error, unexpected '<'
+      </div><!--/.nav-collapse -->
+       ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:48: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+      </div><!--/.nav-collapse -->
+                                ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:50: unknown regexp options - dv
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:52: syntax error, unexpected '<'
+  <div class="container">
+   ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:54: syntax error, unexpected '<', expecting ')'
+  </div>
+   ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:56: unknown regexp options - bdy
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:57: syntax error, unexpected '<'
+</html>
+ ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:57: unterminated regexp meets end of file):
+  app/views/layouts/application.html.erb:30: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:30: unknown regexp option - l
+  app/views/layouts/application.html.erb:31: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:31: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/layouts/application.html.erb:33: unknown regexp option - l
+  app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:34: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/layouts/application.html.erb:37: unknown regexp options - pa
+  app/views/layouts/application.html.erb:37: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:37: unknown regexp option - a
+  app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:40: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:40: syntax error, unexpected keyword_class, expecting ')'
+  app/views/layouts/application.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:41: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:42: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:43: unknown regexp options - pa
+  app/views/layouts/application.html.erb:44: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:45: unknown regexp options - dv
+  app/views/layouts/application.html.erb:46: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:47: unknown regexp option - l
+  app/views/layouts/application.html.erb:48: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:48: syntax error, unexpected unary-, expecting keyword_do or '{' or '('
+  app/views/layouts/application.html.erb:50: unknown regexp options - dv
+  app/views/layouts/application.html.erb:52: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:54: syntax error, unexpected '<', expecting ')'
+  app/views/layouts/application.html.erb:56: unknown regexp options - bdy
+  app/views/layouts/application.html.erb:57: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:57: unterminated regexp meets end of file
+
+
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.8ms)
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:02:47 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:30: syntax error, unexpected ':', expecting ')'
+...path, :class => 'navbar-link' :class =>'glyphicon glyphicon-...
+...                               ^):
+  app/views/layouts/application.html.erb:30: syntax error, unexpected ':', expecting ')'
+
+
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.7ms)
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:02:55 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:03:15 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:30: syntax error, unexpected =>, expecting ')'
+...utput_buffer.append=( :class =>'glyphicon glyphicon-cog', li...
+...                               ^
+/Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/views/layouts/application.html.erb:30: syntax error, unexpected ',', expecting ')'
+...ss =>'glyphicon glyphicon-cog', link_to 'Edit profile', edit...
+...                               ^):
+  app/views/layouts/application.html.erb:30: syntax error, unexpected =>, expecting ')'
+  app/views/layouts/application.html.erb:30: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:03:21 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:03:51 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:04:31 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:04:45 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:04:57 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:05:32 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.0ms)
+Completed 200 OK in 1319ms (Views: 1317.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:05:34 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:06:14 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.0ms)
+Completed 200 OK in 1281ms (Views: 1279.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:15 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:16 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:06:16 +0800
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:06:23 +0800
+Processing by ContributeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered contribute/index.html within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (Invalid CSS after "    right": expected ";", was ": 0;"
+  (in /Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/assets/stylesheets/application.css.scss:33)):
+    2: <html>
+    3: <head>
+    4:   <title>Whiteboard</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:33
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2411113639855526448_70203157990280'
+
+
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.3ms)
+
+
+Started GET "/contribute" for 127.0.0.1 at 2014-07-09 11:06:28 +0800
+Processing by ContributeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered contribute/index.html within layouts/application (0.0ms)
+Completed 200 OK in 1304ms (Views: 1302.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:06:29 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:06:32 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:06:37 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1282ms (Views: 1281.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:06:39 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:06:46 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1188ms (Views: 1187.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:06:48 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:07:02 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1264ms (Views: 1263.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:03 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:07:04 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:07:07 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:07:24 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1240ms (Views: 1239.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:07:26 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:07:31 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1271ms (Views: 1270.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:07:32 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:15 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:08:16 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:08:21 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:09:24 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1294ms (Views: 1293.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:09:25 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:09:32 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1440ms (Views: 1439.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:09:34 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:09:45 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1288ms (Views: 1287.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:09:47 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:09:50 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:10:18 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1316ms (Views: 1315.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:10:19 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:10:25 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1287ms (Views: 1286.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:10:27 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:10:41 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1289ms (Views: 1288.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:10:42 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:10:43 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:10:49 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1328ms (Views: 1327.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:10:50 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:10:51 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:11:47 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1202ms (Views: 1201.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:11:48 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:11:56 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1325ms (Views: 1324.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:11:57 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:11:58 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:12:10 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1328ms (Views: 1327.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:12:12 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:13:45 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:14:04 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (Invalid CSS after "...ba(0,0,0,.075);": expected selector or at-rule, was "}"
+  (in /Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/assets/stylesheets/application.css.scss:37)):
+    2: <html>
+    3: <head>
+    4:   <title>Whiteboard</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:37
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2411113639855526448_70203158392220'
+
+
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:14:08 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (Invalid CSS after "...ba(0,0,0,.075);": expected selector or at-rule, was "}"
+  (in /Users/sophiahaines/Documents/WDI/workspace/basics-of-coding/app/assets/stylesheets/application.css.scss:37)):
+    2: <html>
+    3: <head>
+    4:   <title>Whiteboard</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:37
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2411113639855526448_70203158392220'
+
+
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/sophiahaines/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:14:57 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1307ms (Views: 1306.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:14:58 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:14:59 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-07-09 11:16:16 +0800
+Processing by ContactController#index as HTML
+  Rendered contact/index.html within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1251ms (Views: 1251.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-07-09 11:16:17 +0800
