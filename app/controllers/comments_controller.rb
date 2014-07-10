@@ -16,4 +16,24 @@ class CommentsController < ApplicationController
       render :text, "Error"
     end
   end
+
+  def edit
+    @post = Post.find(params[:post_id])
+    @comment = Comment.find(params[:comment_id])
+  end
+
+  def show
+    @comment = Comment.find(params[:id])
+  end
+
+  def update
+    @comment = Comment.find(params[:comment_id])
+    @comment.content = params[:comment]
+
+    if @comment.save
+      redirect_to '/posts/' + params[:post_id]
+    else
+
+    end
+  end
 end

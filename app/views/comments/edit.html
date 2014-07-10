@@ -1,0 +1,25 @@
+<h2>Edit Comment</h2>
+
+<form class="registration-form comment" method="post" action="/posts/<%= @post.id %>/comments/<%= @comment.id %>">
+  <div class="post_comments comment">
+    <label for="comment"> Comment </label>
+    <textarea id="comment" name="comment" placeholder="Insert your comment here..."> <%= @comment.content %> </textarea>
+  </div>
+  <div class="registration-form-submit-wrap">
+    <input class="registration-form-submit comment" type="submit" value="Submit" />
+  </div>
+  <input type="hidden" name="post_id" value="<%= @post.id %>" />
+</form>
+
+<% unless @comments.nil? %>
+  <div class="comments">
+    <% @comments.each do |c| %>
+      <div class="individual-comment">
+        <%= c.content %>
+      </div>
+    <% end %>
+      <div class="meta_comment">
+        <%= link_to 'Edit', "/posts/#{@post.id}/comments/#{@comment.id}/edit" %>
+      </div>
+  </div>
+<% end %>

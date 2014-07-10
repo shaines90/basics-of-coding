@@ -1,21 +1,24 @@
-<div class="post_title">
-  <h2>  <%= @post.title %> </h2>
+
+<div class="posts">
+  <div class="post_title">
+    <h2>  <%= @post.title %> </h2>
+  </div>
+
+  <div class="post_content">
+    <p>  <%= @post.content %> </p>
+  </div>
 </div>
 
-<div class="post_content">
-  <p>  <%= @post.content %> </p>
-</div>
-
-<div class="meta">
-  <%= link_to 'Update', "/posts/#{@post.id}/edit" %>
-</div>
+  <div class="meta">
+    <%= link_to 'Edit', "/posts/#{@post.id}/edit" %>
+  </div>
 
 <form class="registration-form comment" method="post" action="/comments">
   <div class="post_comments comment">
     <label for="comment"> Comment </label>
-    <textarea id="comment" name="comment" placeholder="Insert your comment here..."></textarea>
+    <textarea class="comment" id="comment" name="comment" placeholder="Insert your comment here..."></textarea>
   </div>
-  <div class="registration-form-submit-wrap">
+  <div class="registration-form-submit-wrap comment">
     <input class="registration-form-submit comment" type="submit" value="Submit" />
   </div>
   <input type="hidden" name="post_id" value="<%= @post.id %>" />
@@ -24,8 +27,11 @@
 <% unless @comments.nil? %>
   <div class="comments">
     <% @comments.each do |c| %>
-      <div class="individual_comment">
+      <div class="individual-comment">
         <%= c.content %>
+      </div>
+      <div class="meta">
+        <%= link_to 'Edit', "/posts/#{@post.id}/comments/#{c.id}/edit" %>
       </div>
     <% end %>
   </div>

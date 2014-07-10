@@ -41,6 +41,14 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
+.cover-heading {
+  padding-bottom: 30px;
+}
+
+.lead {
+  padding-bottom: 25px;
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -178,5 +186,5 @@ body {
 }
 
 .log_in_home {
-  color: orange;
+  color: #E93C00;
 }

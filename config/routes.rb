@@ -4,7 +4,8 @@ Rails.application.routes.draw do
 
   get 'profile' => 'profile#index'
   get 'contribute' => 'contribute#index'
-  get 'contact' => 'contact#index'
+  get 'contacts' => 'contact#index'
+  post 'contacts' => 'contact#index'
   get 'browse' => 'browse#index'
 
   # routes for posts
@@ -22,9 +23,9 @@ Rails.application.routes.draw do
   get 'comments' => 'comments#index'
   get 'comments' => 'comments#new'
   post 'comments' => 'comments#create'
-  get 'comments' => 'comments#show'
-  get 'comments' => 'comments#edit'
-  post 'comments' => 'comments#update'
+  get 'comments/:id' => 'comments#show'
+  get 'posts/:post_id/comments/:comment_id/edit' => 'comments#edit'
+  post 'posts/:post_id/comments/:comment_id' => 'comments#update'
   delete 'comments' => 'comments#destroy'
 
   # routes for URL
@@ -34,6 +35,5 @@ Rails.application.routes.draw do
   # routes for tags
   post 'tags' => 'tags#create'
   get 'tags' => 'tags#index'
-
 
 end
