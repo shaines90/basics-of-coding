@@ -4,8 +4,8 @@ Rails.application.routes.draw do
 
   get 'profile' => 'profile#index'
   get 'contribute' => 'contribute#index'
-  get 'contacts' => 'contact#index'
-  post 'contacts' => 'contact#index'
+  get 'contact' => 'contacts#new'
+  post 'contact' => 'contacts#create'
   get 'browse' => 'browse#index'
 
   # routes for posts
