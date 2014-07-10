@@ -12,8 +12,8 @@ Rails.application.routes.draw do
   get 'posts' => 'posts#new'
   post 'posts' => 'posts#create'
   get 'posts/:id' => 'posts#show'
-  get 'posts' => 'posts#edit'
-  post 'posts' => 'posts#update'
+  get 'posts/:id/edit' => 'posts#edit'
+  post 'posts/:id' => 'posts#update'
   delete 'posts' => 'posts#destroy'
 
   get 'posts/jquery' => 'posts#show'

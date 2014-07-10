@@ -21,4 +21,20 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
     @comments = Comment.where("post_id = ?", params[:id])
   end
+
+  def edit
+    @post = Post.find(params[:id])
+  end
+
+  def update
+    @post = Post.find(params[:id])
+    @post.title = params[:title]
+    @post.content = params[:content]
+
+    if @post.save
+      render :show
+    else
+      render :text, "Error"
+    end
+  end
 end
