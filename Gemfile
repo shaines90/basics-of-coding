@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'devise'
 gem 'bootstrap-sass', '~> 3.2.0'
+gem "letter_opener", :group => :development
 
 gem 'spring',        group: :development
 

@@ -11,10 +11,10 @@ class ContactsController < ApplicationController
     @contact.message = params[:message]
 
     if @contact.save
+      #send email
+      UserMailer.contact_us_email(@contact).deliver
     else
       flash.now[:alert] = "There is an error"
     end
   end
-
-
 end
