@@ -58,6 +58,7 @@ ActiveRecord::Schema.define(version: 20140710084636) do
     t.string   "last_name"
     t.string   "phone"
     t.string   "bio"
+    t.string   "username"
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"

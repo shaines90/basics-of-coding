@@ -9,6 +9,7 @@ class PostsController < ApplicationController
     @post = Post.new
     @post.title = params[:title]
     @post.content = params[:content]
+    @post.user_id = params[:user_id]
 
     if @post.save
       render :show

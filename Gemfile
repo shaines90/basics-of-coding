@@ -14,6 +14,8 @@ gem "letter_opener", :group => :development
 
 gem 'spring',        group: :development
 
+gem 'pry'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
   gem 'capybara', '~> 2.3.0'

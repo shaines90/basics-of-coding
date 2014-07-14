@@ -8,6 +8,6 @@ class User < ActiveRecord::Base
   validates :last_name, presence:true
   validates :bio, presence:true
   validates :phone, presence:true
-
+  validates :username, presence:true
 end
 
