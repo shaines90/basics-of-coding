@@ -2,6 +2,7 @@ class ContributeController < ApplicationController
   before_action :authenticate_user!
 
   def index
+    @tags = Tag.all
   end
 
   def create

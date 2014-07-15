@@ -32,11 +32,20 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
     @post.title = params[:title]
     @post.content = params[:content]
+    @post.tags.clear
+    @post.tags << Tag.find(params[:tags])
 
     if @post.save
       render :show
     else
       render :text, "Error"
     end
+  end
+
+  def destroy
+    @post = Post.find(params[:id])
+    @post.destroy
+
+    redirect_to "/browse"
   end
 end

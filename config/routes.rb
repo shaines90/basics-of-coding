@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   get 'posts/:id' => 'posts#show'
   get 'posts/:id/edit' => 'posts#edit'
   post 'posts/:id' => 'posts#update'
-  delete 'posts' => 'posts#destroy'
+  delete 'posts/:id' => 'posts#destroy'
 
   get 'posts/jquery' => 'posts#show'
 
@@ -27,7 +27,7 @@ Rails.application.routes.draw do
   get 'comments/:id' => 'comments#show'
   get 'posts/:post_id/comments/:comment_id/edit' => 'comments#edit'
   post 'posts/:post_id/comments/:comment_id' => 'comments#update'
-  delete 'comments' => 'comments#destroy'
+  delete 'posts/:post_id/comments/:comment_id' => 'comments#destroy'
 
   # routes for URL
   post 'url' => 'url#create'

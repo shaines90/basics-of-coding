@@ -1,6 +1,6 @@
 <h2>Browse</h2>
 
-<p>
+<p class= "tags-group">
 <% @tags.each do |t| %>
   <a href="/browse/<%= t.id %>" class="btn btn-success btn-<%= t.name %>"><%= t.name %></a>
 <% end %>

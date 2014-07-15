@@ -5,7 +5,7 @@
   </div>
 
   <div class="post_content">
-    <p>  <%= @post.content %> </p>
+    <%= @post.content %>
   </div>
 
   <div class="individual_post_user">
@@ -15,6 +15,7 @@
 
   <div class="meta">
     <%= link_to 'Edit', "/posts/#{@post.id}/edit" %>
+    <%= link_to "Delete", "/posts/#{@post.id}", method: :delete  %>
   </div>
 
 <form class="registration-form comment-box" method="post" action="/comments">
@@ -38,6 +39,7 @@
         <%= c.content %>
           <div class="meta_comments">
             <%= link_to 'Edit', "/posts/#{@post.id}/comments/#{c.id}/edit" %>
+            <%= link_to "Delete", "/posts/#{@post.id}/comments/#{c.id}", method: :delete  %>
           </div>
       </div>
   </div>
