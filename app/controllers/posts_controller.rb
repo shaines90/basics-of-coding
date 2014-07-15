@@ -10,6 +10,7 @@ class PostsController < ApplicationController
     @post.title = params[:title]
     @post.content = params[:content]
     @post.user_id = params[:user_id]
+    @post.tags << Tag.find(params[:tags])
 
     if @post.save
       render :show

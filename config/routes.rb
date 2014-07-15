@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'contact' => 'contacts#new'
   post 'contact' => 'contacts#create'
   get 'browse' => 'browse#index'
+  get 'browse/:id' => 'browse#show_tag'
 
   # routes for posts
   get 'posts' => 'posts#index'

@@ -43,40 +43,54 @@ h3 {
 	box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
 }
 
-.btn-github {
+.btn-Github {
 	background-color: #e0e0e0;
-	background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
-	border-color: #adadad;
+	background-image: linear-gradient(to bottom,#E0E0E0 0,#C2C2C2 100%);
+	border-color: #8A8A8A;
+	color: #000;
 }
 
-.btn-jquery {
+.btn-jQuery {
 	background-color: #2d6ca2;
 	background-image: linear-gradient(to bottom,#428bca 0,#2d6ca2 100%);
 	border-color: #285e8e;
 }
 
-.btn-meteor {
+.btn-JavaScript {
 	background-image: linear-gradient(to bottom,#5cb85c 0,#419641 100%);
 	background-color: #419641;
 	border-color: #398439;
 }
 
-.btn-terminal {
+.btn-lightblue {
 	background-color: #2aabd2;
 	background-image: linear-gradient(to bottom,#5bc0de 0,#2aabd2 100%);
 	border-color: #269abc;
 }
 
-.btn-definitions {
+.btn-Meteor {
 	background-color: #eb9316;
 	background-image: linear-gradient(to bottom,#f0ad4e 0,#eb9316 100%);
 	border-color: #d58512;
 }
 
-.btn-ror {
+.btn-RoR {
 	background-color: #c12e2a;
 	background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
 	border-color: #b92c28;
+}
+
+.btn-Terminal {
+	background-color: #000;
+	background-image: linear-gradient(to bottom,#2E2D2C 0,#000 100%);
+	border-color: #0f0f0f;
+}
+
+.btn-Basics {
+	background-color: #fff;
+	background-image: linear-gradient(to bottom,#fff 0,#f0f0f0 100%);
+	border-color: #f0f0f0;
+	color: black;
 }
 
 /*Registration Form*/
