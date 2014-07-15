@@ -1,15 +1,15 @@
 
 <div class="posts">
   <div class="post_title">
-    <h2>  <%= @post.title %> </h2>
+    <h3>  <%= @post.title %> </h3>
   </div>
 
   <div class="post_content">
     <p>  <%= @post.content %> </p>
   </div>
 
-  <div class="user">
-    <p>  <%= @post.user.username %> </p>
+  <div class="individual_post_user">
+    <p> post by: <%= @post.user.username %> </p>
   </div>
 </div>
 
@@ -17,13 +17,13 @@
     <%= link_to 'Edit', "/posts/#{@post.id}/edit" %>
   </div>
 
-<form class="registration-form comment" method="post" action="/comments">
-  <div class="post_comments comment">
-    <label for="comment"> Comment </label>
+<form class="registration-form comment-box" method="post" action="/comments">
+  <div class="post_comments comment-box">
+    <label for="comment-box"> Comment </label>
     <textarea class="comment" id="comment" name="comment" placeholder="Insert your comment here..."></textarea>
   </div>
-  <div class="registration-form-submit-wrap comment">
-    <input class="registration-form-submit comment" type="submit" value="Submit" />
+  <div class="registration-form-submit-wrap comment-box">
+    <input class="registration-form-submit comment-box" type="submit" value="Submit" />
   </div>
   <input type="hidden" name="post_id" value="<%= @post.id %>" />
 </form>
@@ -32,11 +32,15 @@
   <div class="comments">
     <% @comments.each do |c| %>
       <div class="individual-comment">
+        <div class="username">
+          <p>  <%= @post.user.username %> says: </p>
+        </div>
         <%= c.content %>
+          <div class="meta_comments">
+            <%= link_to 'Edit', "/posts/#{@post.id}/comments/#{c.id}/edit" %>
+          </div>
       </div>
-      <div class="meta">
-        <%= link_to 'Edit', "/posts/#{@post.id}/comments/#{c.id}/edit" %>
-      </div>
+  </div>
     <% end %>
   </div>
 <% end %>

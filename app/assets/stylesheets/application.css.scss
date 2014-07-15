@@ -23,6 +23,11 @@ h2 {
 	padding-left: 10px;
 }
 
+h3 {
+	color: #E93C00;
+	padding-bottom: 20px;
+}
+
 .navbar-nav li#search .search-box {
 	position: absolute;
 	right: 0;
@@ -221,6 +226,14 @@ h2 {
 .individual_post_user {
 	font-style: italic;
 	font-size: 0.9em;
+	color: #D36C38;
+	float: right;
+}
+
+.username {
+	float: left;
+	color: #D36C38;
+	padding-right: 15px;
 }
 
 .individual-comment {
@@ -233,7 +246,7 @@ h2 {
 	width: 100%;
 }
 
-.comment {
+.comment-box {
 	border-radius: 5px;
 }
 
@@ -241,6 +254,10 @@ h2 {
 	padding-top: 5px;
 	padding-left: 15px;
 	color: #DCDCDC;
+}
+
+.meta_comments {
+	float: right;
 }
 
 .posts {
@@ -252,4 +269,8 @@ h2 {
 	resize: auto;
 	width: 100%;
 	padding-bottom: 20px;
+}
+
+.posts-content {
+	padding-bottom: 15px;
 }
