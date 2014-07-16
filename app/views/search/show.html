@@ -1,0 +1,10 @@
+<h2>Search Results:</h2>
+
+<div class="posts">
+  <% @posts.each do |p| %>
+    <div class="individual_post">
+      <a href="/posts/<%= p.id %>"><%= p.title %></a>
+    </div>
+  <% end %>
+
+</div>

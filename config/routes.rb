@@ -9,6 +9,9 @@ Rails.application.routes.draw do
   get 'browse' => 'browse#index'
   get 'browse/:id' => 'browse#show_tag'
 
+  #routes for search
+  get 'search' => 'search#show'
+
   # routes for posts
   get 'posts' => 'posts#index'
   get 'posts' => 'posts#new'

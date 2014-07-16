@@ -34,6 +34,18 @@
             <li><%= link_to "Login", new_user_session_path, :class => 'navbar-link' %></li>
           <% end %>
 
+        <li id="search">
+          <a href="#" id="search-btn"><span class="glyphicon glyphicon-search"></span> Search</a>
+            <div class="search-box hidden animated fadeInUp" id="search-box">
+              <form class="input-group" method="get" action="search">
+                <input type="text" class="form-control" placeholder="Search" name="title">
+                <span class="input-group-btn">
+                  <input class="btn btn-default" type="submit" value="Go!">
+                </span>
+              </form>
+              </div>
+            </div>
+          </li>
 
         </ul>
       </div><!--/.nav-collapse -->
