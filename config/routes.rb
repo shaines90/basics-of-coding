@@ -32,10 +32,6 @@ Rails.application.routes.draw do
   post 'posts/:post_id/comments/:comment_id' => 'comments#update'
   delete 'posts/:post_id/comments/:comment_id' => 'comments#destroy'
 
-  # routes for URL
-  post 'url' => 'url#create'
-  get 'url' => 'url#index'
-
   # routes for tags
   post 'tags' => 'tags#create'
   get 'tags' => 'tags#index'
