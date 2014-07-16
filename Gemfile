@@ -10,11 +10,13 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'devise'
 gem 'bootstrap-sass', '~> 3.2.0'
-gem "letter_opener", :group => :development
+
+gem 'pry'
+gem 'letter_opener', :group => :development
+gem 'paperclip', '~> 4.1'
 
 gem 'spring',        group: :development
 
-gem 'pry'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
