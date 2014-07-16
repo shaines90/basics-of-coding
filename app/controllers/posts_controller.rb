@@ -10,12 +10,15 @@ class PostsController < ApplicationController
     @post.title = params[:title]
     @post.content = params[:content]
     @post.user_id = params[:user_id]
-    @post.tags << Tag.find(params[:tags])
+    tags = params[:tags]
+    tags.each do |t|
+      @post.tags << Tag.find(t)
+    end
 
     if @post.save
       render :show
     else
-      render :text, "Error"
+      render :new
     end
   end
 
@@ -26,6 +29,7 @@ class PostsController < ApplicationController
 
   def edit
     @post = Post.find(params[:id])
+    @tags = Tag.all
   end
 
   def update
@@ -33,12 +37,15 @@ class PostsController < ApplicationController
     @post.title = params[:title]
     @post.content = params[:content]
     @post.tags.clear
-    @post.tags << Tag.find(params[:tags])
+    tags = params[:tags]
+    tags.each do |t|
+      @post.tags << Tag.find(t)
+    end
 
     if @post.save
       render :show
     else
-      render :text, "Error"
+      render :new
     end
   end
 

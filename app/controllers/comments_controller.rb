@@ -9,6 +9,7 @@ class CommentsController < ApplicationController
     @comment = Comment.new
     @comment.content = params[:comment]
     @comment.post_id = params[:post_id]
+    @comment.user_id = params[:user_id]
 
     if @comment.save
       redirect_to '/posts/' + params[:post_id]

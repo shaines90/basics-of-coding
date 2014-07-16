@@ -8,14 +8,13 @@
     <input type="text" id="title" name="title" placeholder="Title">
 
     <label for="tags"> Tags </label>
-
-    <% @tags.each do |t| %>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox"> <%= t.name %>
-        </label>
-      </div>
-    <% end %>
+      <% @tags.each do |t| %>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="tags[]" value="<%= t.id %>"> <%= t.name %>
+          </label>
+        </div>
+      <% end %>
   </div>
 
   <div class="registration-form-column contribute">

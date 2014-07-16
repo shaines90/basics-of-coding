@@ -8,8 +8,16 @@
     <input type="text" id="title" name="title" placeholder="Title" value="<%= @post.title %>" />
 
     <label for="tags"> Tags </label>
-    <%= select_tag(:tags, options_from_collection_for_select(Tag.all, :id, :name)) %>
+      <% @tags.each do |t| %>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="tags[]" value="<%= t.id %>"> <%= t.name %>
+          </label>
+        </div>
+      <% end %>
+  </div>
 
+  <div class="registration-form-column contribute">
     <label for="content"> Content </label>
     <textarea id="content" name="content" placeholder="Insert your content here..."><%= @post.content %></textarea>
   </div>
