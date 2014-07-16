@@ -16,7 +16,7 @@ class PostsController < ApplicationController
     end
 
     if @post.save
-      render :show
+      redirect_to "/posts/#{@post.id}"
     else
       render :new
     end
@@ -43,7 +43,7 @@ class PostsController < ApplicationController
     end
 
     if @post.save
-      render :show
+      redirect_to "/posts/#{@post.id}"
     else
       render :new
     end

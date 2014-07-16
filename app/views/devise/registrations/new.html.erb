@@ -1,8 +1,8 @@
 <h2>Register</h2>
 
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= devise_error_messages! %>
-  <div class="registration-form-column">
+<div class="registration-form-column">
+  <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    <%= devise_error_messages! %>
 
     <div class="registration-form">
       <%= f.label :first_name %><br />
@@ -39,12 +39,12 @@
       <%= f.label :password_confirmation %><br />
       <%= f.password_field :password_confirmation, autocomplete: "off" %>
     </div>
-  </div>
 
-  <div class="registration-form registration-form-column">
-    <%= f.label :profile_Image %><br />
-      <%= f.file_field :profile_img %>
-  </div>
+
+    <div class="registration-form registration-form-column">
+      <%= f.label :profile_Image %><br />
+        <%= f.file_field :profile_img %>
+    </div>
 
     <div class="registration-form registration-form-column">
       <label for="favourite_topic">Favourite Topic</label>
@@ -61,14 +61,11 @@
       <%= f.text_field :phone %>
     </div>
 
-    <div class="registration-form-submit">
-      <div class="registration-form-submit-wrap">
-        <%= f.submit "Submit" %>
-      </div>
+    <div class="registration-form-submit-wrap">
+      <input class="registration-form-submit contribute" type="submit" value="Submit" />
     </div>
-    <div class="sign-in-registration-form">
-      <%= render "devise/shared/links" %>
-    </div>
-  </div>
-<% end %>
 
+  <%= render "devise/shared/links" %>
+
+  <% end %>
+</div>
