@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   devise_for :users, :controllers => { registrations: 'registrations' }
   root 'home#index'
 
-  get 'profile' => 'profile#index'
   get 'contribute' => 'contribute#index'
   get 'contact' => 'contacts#new'
   post 'contact' => 'contacts#create'
@@ -35,5 +34,8 @@ Rails.application.routes.draw do
   # routes for tags
   post 'tags' => 'tags#create'
   get 'tags' => 'tags#index'
+
+  #routes for profile
+  get 'profile/:id' => 'profile#show'
 
 end

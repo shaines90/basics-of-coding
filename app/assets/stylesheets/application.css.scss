@@ -28,6 +28,15 @@ h3 {
 	padding-bottom: 20px;
 }
 
+h4 {
+	color: #428BCA;
+	text-transform: uppercase;
+}
+
+h5 {
+	color: #333333;
+}
+
 .navbar-nav li#search .search-box {
 	position: absolute;
 	right: 0;
@@ -303,4 +312,24 @@ h3 {
 
 .form-control {
 	margin-top: 5px;
+}
+
+.profile {
+	margin: 15px 20px;
+	float: left;
+}
+
+.profile_name {
+	margin-top: 20px;
+}
+
+.profile_bio {
+	margin-top: 0;
+}
+
+.img-circle {
+	width: 230px;
+	height: 230px;
+	background-position: center;
+	border: 2px solid #000;
 }
