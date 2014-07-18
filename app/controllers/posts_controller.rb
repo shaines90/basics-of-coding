@@ -55,4 +55,5 @@ class PostsController < ApplicationController
 
     redirect_to "/browse"
   end
+
 end

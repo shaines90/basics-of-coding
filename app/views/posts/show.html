@@ -35,7 +35,7 @@
     <% @comments.each do |c| %>
       <div class="individual-comment">
         <div class="username">
-          <p>  <%= c.user.username %> says: </p>
+          <p><a href="/profile/<%= c.user.id %>"><%= c.user.username %></a> says: </p>
         </div>
         <%= c.content %>
           <div class="meta_comments">
