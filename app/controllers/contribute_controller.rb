@@ -8,6 +8,7 @@ class ContributeController < ApplicationController
   def create
     post = Post.new
     post.title = params[:title]
+    post.content = params[:content]
 
     if post.save
       render :create

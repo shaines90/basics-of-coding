@@ -27,12 +27,6 @@
         <%= f.file_field :profile_img %>
     </div>
 
-    <div class="registration-form registration-form-column">
-      <label for="favourite_topic">Favourite Topic</label>
-      <i>(leave black if this has not changed)</i>
-        <%= select_tag(:favourite_topic, options_from_collection_for_select(Tag.all, :id, :name)) %>
-    </div>
-
     <div class="registration-form-submit-wrap"><%= f.submit "Update" %></div>
   <% end %>
 

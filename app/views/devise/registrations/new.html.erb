@@ -47,25 +47,18 @@
     </div>
 
     <div class="registration-form ">
-      <label for="favourite_topic">Favourite Topic</label>
-        <%= select_tag(:favourite_topic, options_from_collection_for_select(Tag.all, :id, :name)) %>
-    </div>
-
-    <div class="registration-form ">
       <%= f.label :bio %><br />
       <%= f.text_area :bio %>
-    </div>
-
-    <div class="registration-form">
-      <%= f.label :phone %><br />
-      <%= f.text_field :phone %>
     </div>
 
     <div class="registration-form-submit-wrap">
       <input class="registration-form-submit contribute" type="submit" value="Submit" />
     </div>
 
-  <%= render "devise/shared/links" %>
 
   <% end %>
+</div>
+
+<div class="member">
+  <p> Already a member? <%= render "devise/shared/links" %> </p>
 </div>

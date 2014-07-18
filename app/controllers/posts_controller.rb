@@ -18,7 +18,7 @@ class PostsController < ApplicationController
     if @post.save
       redirect_to "/posts/#{@post.id}"
     else
-      render :new
+      redirect_to "/browse"
     end
   end
 
